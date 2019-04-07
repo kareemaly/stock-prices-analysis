@@ -1,12 +1,12 @@
 class DatasetRow {
   /**
-   * @param  {Array.<{
+   * @param  {{
    *    date: String|Object,
    *    open: Number,
    *    high: Number,
    *    low: Number,
    *    close: Number
- *    }>} data
+ *    }} data
    */
   constructor(data) {
     this.data = data;
